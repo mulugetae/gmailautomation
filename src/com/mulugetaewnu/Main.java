@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 // Create a new instance of the Chrome driver
-        System.setProperty("webdriver.chrome.driver", "/home/eyuel/Gecko/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/home/Gecko/chromedriver");
         WebDriver driver;
         driver = new ChromeDriver();
         //Launch the some site
